@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>BroMasters</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/icone-LM.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js"></script>
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="left-top">
+                        <div class="email-box">
+                            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> arkronsandbox@outlook.com</a>
+                        </div>
+                        <div class="phone-box">
+                            <a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> 11 99453 7261</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="right-top">
+                        <div class="social-box">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+                                <ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Ponto de Navegação</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/Brologo.png" height="100" width="100" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">Sobre Nós</a></li>
+                        <li><a href="services.html">Serviços</a></li>
+                        <li><a href="pricing.html">Preços</a></li>
+                        <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner-area banner-bg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner">
+                        <h2>Portfólio</h2>
+                        <ul class="page-title-link">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Nosso Portfólio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Portfólio</h3>
+                <p class="lead">Nós narramos, conduzimos, criamos nossas histórias, assim como ajudamos você inicia-las e termina-las. <br>Veja algumas obras abaixo.</p>
+            </div>
+            <!-- end title -->
+        </div>
+        <!-- end container -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="portfolio-filter text-center">
+                        <ul>
+                            <li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> Todas</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" data-toggle="tooltip" data-placement="top" title="3" href="#" data-filter=".cat1">Livros</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="3" data-filter=".cat2">Personagens</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="2" data-filter=".cat3">Logos</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="2" data-filter=".cat4">Mestres</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <hr class="invis">
+
+            <div id="da-thumbs" class="da-thumbs portfolio">
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="uploads/Capa.png" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/capa.png" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore<small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat2">
+                    <a href="uploads/perso1.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/perso1.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="uploads/liv2.png" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/liv2.png" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat4">
+                    <a href="uploads/mest1.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/mest1.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat3">
+                    <a href="uploads/logo1.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/logo1.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat2">
+                    <a href="uploads/perso2.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/perso2.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat1">
+                    <a href="uploads/liv1.png" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/liv1.png" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat4">
+                    <a href="uploads/mest2.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/mest2.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="post-media pitem item-w1 item-h1 cat3">
+                    <a href="uploads/Capa.png" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/Capa.png" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="post-media pitem item-w1 item-h1 cat2">
+                    <a href="uploads/perso3.jpg" data-rel="prettyPhoto[gal]">
+                        <img src="uploads/perso3.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>Matheus Fiore <small>Escritor</small></h3>
+                            <i class="flaticon-unlink"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end portfolio -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div id="services" class="parallax section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Nossos Serviços</h3>
+                <p class="lead">Nosso suporte com RPG de Mesa, para encontrar narradores, apontamento de sistemas e modalidades. Venda de jogos de Tabuleiro, desde Gameboard á Card Game. Consulta para desenvolvimento de uma boa campanha, história, roteiro e narrativa.</p>
+            </div>
+            <!-- end title -->
+
+            <div class="owl-services owl-carousel owl-theme">
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="images/conteudo/rpg-mesa.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/conteudo/rpg-mesa.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+                    <div class="service-dit">
+                        <h3>RPG de Mesa</h3>
+                        <p>Dificuldade em enterder, formular ou adaptar um sistema. Achar um mestre e colegas de campanha. Ou encontrar um bom lugar para joga. É com a gente!</p>
+                    </div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="images/conteudo/day21.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/conteudo/day21.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+                    <div class="service-dit">
+                        <h3>Jogos de Tabuleiro e etc.</h3>
+                        <p> Procure um jogo de estratégia certo para jogar com os amigos. Ter acesso a um kit de D&D, com manuel ficha e Sheild para a campanha. E achar boosters e fatpack de MTG, com a maior sorte que existe. </p>
+                    </div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="images/conteudo/batalha.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/conteudo/batalha.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+                    <div class="service-dit">
+                        <h3>Consultoria de Roterização</h3>
+                        <p>A jornada do Heroi. Colocação de plot twist. Analise e Desenvolvimento de Personagem. Construção de roteiro e história. E Muito mais!</p>
+                    </div>
+                </div>
+                <!-- end service -->
+                </div>
+                <!-- end service -->
+            </div>
+            <!-- end row -->
+
+            <hr class="hr1">
+
+            <div class="text-center">
+                <a data-scroll href="#portfolio" class="btn btn-light btn-radius btn-brd">Veja nosso Portifólio.</a>
+            </div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/parallax_05.png');">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="customwidget text-left">
+                        <h1>Livros Desenvolvidos</h1>
+                        <p>Mundos a serem explorados, <br>com vinculação a um universo altamente extenço</p>
+                        <ul class="list-inline">
+                            <li><i class="fa fa-check"></i> Personagens Complexos</li>
+                            <li><i class="fa fa-check"></i> Plataforma de Criação Wattpad</li>
+                            <li><i class="fa fa-check"></i> Formulação de Roteiro</li>
+                            <li><i class="fa fa-check"></i> Criação de Capa</li>
+                        </ul>
+                        <!-- end list -->
+                        <a href="#services" data-scroll class="btn btn-light btn-radius btn-brd">Saiba Mais</a>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-md-6">
+                    <div class="text-center image-center hidden-sm hidden-xs">
+                        <img src="uploads/tela-1.png" alt="" class="img-responsive wow fadeInUp">
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>"Testemunhem a Verdade" - by Niron</h3>
+                <p class="lead">Nós somos gratos ao feedback dos que testaram e adentraram ao nosso humilde site. <br>Esperamos que encontre o melhor do melhor e que a escuridão não obscureça o seu caminho.</p>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Melhor Lore. Meu Consagrado!</h3>
+                                <p class="lead">Estava com problemas em um nó de personalidade entre meus personagens, sua ações no roteiro não se completavam ou encachavam com o que pensavam. Graças ao suporte e consultoria. Eles criaram e orientaram um caminho que
+                                    não quebrasse o roteiro narrativo original. Obrigado BroMasters</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>James Fernando <small>- Mestre de RPG, Desinger Gráfico</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> O Magic de Sexta vai tá como?!</h3>
+                                <p class="lead">Agradeço pelo atentimento e pela orientação das expanções, em função sobre qual construção de deck era melhor.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Jacques Philips <small>- Pediatra</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> GG Time Lindo!</h3>
+                                <p class="lead">Agradeço de como disponibilisaram a formação de campanha. Vocês realmente sabem como é dificil achar pessoa para jogar e tambem sabem como conduzir para solução desse problema. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4>Venanda Mercy <small>- Consultora de Imoveis</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Jacques Philips <small>- Designer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                    </div>
+                    <!-- end carousel -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logos/logoLM2.png" alt="" />
+                        </div>
+                        <p> Aqui a Lenda Começa e Termina.</p>
+                        <p>Fique a vontade para nos contactar e se tiver algo para nos propor, não se segure. Estamos abertos a ofertas.</p>
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Páginas</h3>
+                        </div>
+
+                        <ul class="footer-links hov">
+                            <li><a href="#">Home <span class="icon icon-arrow-right2"></span></a></li>
+                            <li><a href="#">Sobre <span class="icon icon-arrow-right2"></span></a></li>
+                            <li><a href="#">Faq <span class="icon icon-arrow-right2"></span></a></li>
+                            <li><a href="#">Contato <span class="icon icon-arrow-right2"></span></a></li>
+                        </ul>
+                        <!-- end links -->
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-distributed widget clearfix">
+                        <div class="widget-title">
+                            <h3>Inscreva-se</h3>
+                            <p>"Estaremos sempre nas "redes sociais", qual vocês mortais se dirigem. Apoiados pelo Meta-Ancient Nirbell."</p>
+                        </div>
+
+                        <div class="footer-right">
+                            <form method="get" action="#">
+                                <input placeholder="Subscribe our newsletter.." name="search">
+                                <i class="fa fa-envelope-o"></i>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+    <!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2019 <a href="#">BroMasters</a> Design By :
+                        <a href="https://html.design/">Legends Makers</a></p>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>
+
+</body>
+
+</html>
